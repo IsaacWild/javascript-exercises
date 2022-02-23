@@ -7,7 +7,6 @@ const removeFromArray = function() {
         toRemove.push(arguments[i])
     }
     for (let i = 0; i < arraylength; i++){
-        console.log("Array item: " + array[i]);
         for(let j = 0; j < toRemove.length; j++){
             if (toRemove[j] == array[i]){
                 array.splice(i, 1)
