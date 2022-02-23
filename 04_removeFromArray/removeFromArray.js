@@ -15,7 +15,6 @@ const removeFromArray = function() {
             }
         }
     }
-    // console.log("After splice array: " + array)
     return array;
 };
 
